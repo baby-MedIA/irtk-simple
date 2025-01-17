@@ -23,7 +23,7 @@ using namespace std;
 
 void usage()
 {
-  cerr << "Usage: estimate-distortion [estimated fieldmap] [B0] [T2] <options>\n" << endl;
+  cerr << "Usage: estimate-distortion [estimated fieldmap] [T2] [B0] <options>\n" << endl;
   cerr << endl;
 
   cerr << "\t[estimated fieldmap]     Name for the estimated fieldmap in Nifti or Analyze format." << endl;
